@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name Sense_Resistors)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/Sense_Resistors.pretty)(options "")(descr ""))
+  (lib (name Housings_uMAX)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/Housings_uMAX.pretty)(options "")(descr ""))
+  (lib (name Capacitors_SMD_Round)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/Capacitors_SMD_Round.pretty)(options "")(descr ""))
+  (lib (name TO_Combo_Packages)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/TO_Combo_Packages.pretty)(options "")(descr ""))
+  (lib (name JST_Combo)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/JST_Combo.pretty)(options "")(descr ""))
+  (lib (name Board_Outlines)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/Board_Outlines.pretty)(options "")(descr ""))
+  (lib (name Polarity_Symbols)(type KiCad)(uri ${KIPRJMOD}/../makerspace-partsbin/electronics/_kicad_library/Polarity_Symbols.pretty)(options "")(descr ""))
+)
