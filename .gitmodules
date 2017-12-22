@@ -1,0 +1,3 @@
+[submodule "makerspace-partsbin"]
+	path = makerspace-partsbin
+	url = https://github.com/thatch/makerspace-partsbin
