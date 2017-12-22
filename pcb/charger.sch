@@ -65,12 +65,12 @@ $EndComp
 $Comp
 L Conn_01x02 J201
 U 1 1 5A337C89
-P 9450 3900
-F 0 "J201" H 9450 4000 50  0000 C CNN
-F 1 "Conn_01x02" H 9450 3700 50  0000 C CNN
-F 2 "JST_Combo:JST_PH_2_Combo" H 9450 3900 50  0001 C CNN
-F 3 "" H 9450 3900 50  0001 C CNN
-	1    9450 3900
+P 9700 3900
+F 0 "J201" H 9700 4000 50  0000 C CNN
+F 1 "Conn_01x02" H 9700 3700 50  0000 C CNN
+F 2 "JST_Combo:JST_PH_2_Combo" H 9700 3900 50  0001 C CNN
+F 3 "" H 9700 3900 50  0001 C CNN
+	1    9700 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -96,10 +96,10 @@ F 3 "" H 2950 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR014
 U 1 1 5A337EA2
 P 2950 3400
-F 0 "#PWR011" H 2950 3150 50  0001 C CNN
+F 0 "#PWR014" H 2950 3150 50  0001 C CNN
 F 1 "GND" H 2950 3250 50  0000 C CNN
 F 2 "" H 2950 3400 50  0001 C CNN
 F 3 "" H 2950 3400 50  0001 C CNN
@@ -205,7 +205,7 @@ Text Notes 4950 2150 0    60   ~ 0
 OUT2 is current sense for\nelectronic load.
 Text Notes 1950 7150 0    60   ~ 0
 TODO: Add output filter with guessed component values\nhttp://www.analog.com/en/technical-articles/designing-second-stage-output-filters-for-switching-power-supplies.html
-Text Notes 9050 3350 0    60   ~ 0
+Text Notes 8950 4550 0    60   ~ 0
 TODO: Panel with several jacks, buttons
 $Comp
 L Q_NMOS_GSD Q201
@@ -259,8 +259,6 @@ F 3 "" H 5200 3550 50  0001 C CNN
 	1    5200 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 3150 0    60   ~ 0
-TODO: Secondary output filter
 Text Notes 2350 3800 0    60   ~ 0
 TODO: Soft-start cap?
 Text Notes 2150 4100 0    60   ~ 0
@@ -320,21 +318,21 @@ $EndComp
 $Comp
 L Conn_01x02 J202
 U 1 1 5A37E853
-P 10000 3900
-F 0 "J202" H 10000 4000 50  0000 C CNN
-F 1 "Conn_01x02" H 10000 3700 50  0000 C CNN
-F 2 "Connectors_JST:JST_VH_B2PS-VH_2x2x3.96mm_Horizontal" H 10000 3900 50  0001 C CNN
-F 3 "" H 10000 3900 50  0001 C CNN
-	1    10000 3900
+P 10250 3900
+F 0 "J202" H 10250 4000 50  0000 C CNN
+F 1 "Conn_01x02" H 10250 3700 50  0000 C CNN
+F 2 "Connectors_JST:JST_VH_B2PS-VH_2x2x3.96mm_Horizontal" H 10250 3900 50  0001 C CNN
+F 3 "" H 10250 3900 50  0001 C CNN
+	1    10250 3900
 	1    0    0    -1  
 $EndComp
 Text HLabel 8150 3750 2    60   Input ~ 0
 LOAD_VREF
 $Comp
-L +9VA #PWR012
+L +9VA #PWR015
 U 1 1 5A3CAA23
 P 6500 1250
-F 0 "#PWR012" H 6500 1125 50  0001 C CNN
+F 0 "#PWR015" H 6500 1125 50  0001 C CNN
 F 1 "+9VA" H 6500 1400 50  0000 C CNN
 F 2 "" H 6500 1250 50  0001 C CNN
 F 3 "" H 6500 1250 50  0001 C CNN
@@ -348,10 +346,10 @@ OUT1
 Text HLabel 7000 2450 0    60   Output ~ 0
 OUT2
 $Comp
-L +9VA #PWR014
+L +9VA #PWR016
 U 1 1 5A3CC14E
 P 7650 950
-F 0 "#PWR014" H 7650 825 50  0001 C CNN
+F 0 "#PWR016" H 7650 825 50  0001 C CNN
 F 1 "+9VA" H 7650 1100 50  0000 C CNN
 F 2 "" H 7650 950 50  0001 C CNN
 F 3 "" H 7650 950 50  0001 C CNN
@@ -359,10 +357,10 @@ F 3 "" H 7650 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +9VA #PWR015
+L +9VA #PWR017
 U 1 1 5A3CC759
 P 7850 3500
-F 0 "#PWR015" H 7850 3375 50  0001 C CNN
+F 0 "#PWR017" H 7850 3375 50  0001 C CNN
 F 1 "+9VA" H 7850 3650 50  0000 C CNN
 F 2 "" H 7850 3500 50  0001 C CNN
 F 3 "" H 7850 3500 50  0001 C CNN
@@ -370,10 +368,10 @@ F 3 "" H 7850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR016
+L GNDA #PWR018
 U 1 1 5A3CC893
 P 7850 4200
-F 0 "#PWR016" H 7850 3950 50  0001 C CNN
+F 0 "#PWR018" H 7850 3950 50  0001 C CNN
 F 1 "GNDA" H 7850 4050 50  0000 C CNN
 F 2 "" H 7850 4200 50  0001 C CNN
 F 3 "" H 7850 4200 50  0001 C CNN
@@ -406,18 +404,18 @@ Wire Wire Line
 Wire Wire Line
 	6700 1750 7100 1750
 Wire Wire Line
-	9250 3900 9250 3500
+	9500 3500 9500 3900
 Wire Wire Line
-	8800 3500 9800 3500
+	8800 3500 10050 3500
 Connection ~ 8800 3500
 Wire Wire Line
 	8800 4600 8800 4300
 Wire Wire Line
 	2400 4600 8800 4600
 Wire Wire Line
-	9250 4000 9250 4400
+	9500 4400 9500 4000
 Wire Wire Line
-	8800 4400 9800 4400
+	8800 4400 10050 4400
 Connection ~ 8800 4400
 Connection ~ 8800 3950
 Wire Wire Line
@@ -504,11 +502,11 @@ Wire Wire Line
 Wire Wire Line
 	8200 1000 8200 1050
 Wire Wire Line
-	9800 3500 9800 3900
-Connection ~ 9250 3500
+	10050 3500 10050 3900
+Connection ~ 9500 3500
 Wire Wire Line
-	9800 4400 9800 4000
-Connection ~ 9250 4400
+	10050 4400 10050 4000
+Connection ~ 9500 4400
 Wire Wire Line
 	8050 3750 8150 3750
 Wire Wire Line
@@ -553,9 +551,9 @@ Wire Wire Line
 	5750 4450 5800 4450
 Wire Wire Line
 	5800 4450 5800 4350
-Text Label 8950 3500 0    60   ~ 0
+Text Label 9600 3500 0    60   ~ 0
 BATPLUS
-Text Label 9000 4400 0    60   ~ 0
+Text Label 9550 4400 0    60   ~ 0
 BATMINUS
 $Comp
 L TEST TP201
@@ -574,10 +572,10 @@ Vsw
 Text Label 5250 3300 0    60   ~ 0
 Ind_out
 $Comp
-L GNDA #PWR017
+L GNDA #PWR019
 U 1 1 5A3D46AB
 P 7650 2850
-F 0 "#PWR017" H 7650 2600 50  0001 C CNN
+F 0 "#PWR019" H 7650 2600 50  0001 C CNN
 F 1 "GNDA" H 7650 2700 50  0000 C CNN
 F 2 "" H 7650 2850 50  0001 C CNN
 F 3 "" H 7650 2850 50  0001 C CNN
@@ -585,10 +583,10 @@ F 3 "" H 7650 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR018
+L GNDA #PWR020
 U 1 1 5A3D494B
 P 8200 1350
-F 0 "#PWR018" H 8200 1100 50  0001 C CNN
+F 0 "#PWR020" H 8200 1100 50  0001 C CNN
 F 1 "GNDA" H 8200 1200 50  0000 C CNN
 F 2 "" H 8200 1350 50  0001 C CNN
 F 3 "" H 8200 1350 50  0001 C CNN
@@ -596,14 +594,57 @@ F 3 "" H 8200 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR?
+L GNDA #PWR021
 U 1 1 5A3D4EF5
 P 6500 1950
-F 0 "#PWR?" H 6500 1700 50  0001 C CNN
+F 0 "#PWR021" H 6500 1700 50  0001 C CNN
 F 1 "GNDA" H 6500 1800 50  0000 C CNN
 F 2 "" H 6500 1950 50  0001 C CNN
 F 3 "" H 6500 1950 50  0001 C CNN
 	1    6500 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R206
+U 1 1 5A3D5E6F
+P 9050 3750
+F 0 "R206" V 9130 3750 50  0000 C CNN
+F 1 "10k" V 9050 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 3750 50  0001 C CNN
+F 3 "" H 9050 3750 50  0001 C CNN
+	1    9050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R207
+U 1 1 5A3D5ECD
+P 9050 4150
+F 0 "R207" V 9130 4150 50  0000 C CNN
+F 1 "10k" V 9050 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 4150 50  0001 C CNN
+F 3 "" H 9050 4150 50  0001 C CNN
+	1    9050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4300 9050 4400
+Connection ~ 9050 4400
+Wire Wire Line
+	9050 3900 9050 4000
+Wire Wire Line
+	9050 3600 9050 3500
+Connection ~ 9050 3500
+Wire Wire Line
+	9050 3950 9200 3950
+Wire Wire Line
+	9200 3950 9200 3150
+Wire Wire Line
+	9200 3150 9450 3150
+Connection ~ 9050 3950
+Text HLabel 9450 3150 2    60   Output ~ 0
+HALF_BATT
+Text Notes 9200 2950 0    60   ~ 0
+TODO: Complete disconnect\nto avoid slow discharge.
+Text Notes 9200 2650 0    60   ~ 0
+TODO: Detect shorted\n(or protection-triggered) cells
 $EndSCHEMATC
