@@ -1,5 +1,7 @@
 This is in the early stages of prototyping a multi-port 1S Li-po charger.
 
+![Board render](board.png)
+
 Features include:
 
 - Wide input voltage (approx 5-24V, untested)
