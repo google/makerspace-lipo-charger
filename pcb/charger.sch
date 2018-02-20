@@ -43,8 +43,8 @@ Sheet 2 5
 Title ""
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
+Comp "(c) Google LLC"
+Comment1 "CC-BY 4.0 International"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -89,7 +89,7 @@ F 4 "MAX4377TASA+" H 6500 5100 60  0001 C CNN "MPN"
 	1    6500 5100
 	-1   0    0    -1  
 $EndComp
-Text Notes 1950 7150 0    60   ~ 0
+Text Notes 1050 7150 0    60   ~ 0
 TODO: Add output filter with guessed component values\nhttp://www.analog.com/en/technical-articles/designing-second-stage-output-filters-for-switching-power-supplies.html
 Text Notes 8400 1950 0    60   ~ 0
 TODO: Panel with several jacks, buttons

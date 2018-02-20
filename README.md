@@ -22,3 +22,7 @@ Open questions:
 - Can we trust the sum of individual shunts for calculating used power budget?
 - How will MCU stay alive while probing (or backing off)
 - Is there a much better way to shut off discharge (second nmos is obvious, but expensive)
+
+License: CC-BY 4.0 International
+
+Disclaimer: This not an official Google product.
